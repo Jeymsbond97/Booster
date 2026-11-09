@@ -47,7 +47,8 @@ and playing soccer, and imitating human motions such as dancing.
 | 6 | Sim2sim: run the GPU-trained policy in MuJoCo | laptop |
 | 7 | Sim2real on a physical K1 | robot |
 
-Progress: stage 1 is in progress.
+Progress: stage 1 is in progress — the K1 model loads, its structure and sensor readings can be
+printed, and the MJCF walkthrough is written. Next: adding a head camera, then the PD controller.
 
 ## Repository layout
 
