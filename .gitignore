@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Local notes and files that are not part of the public repository
+PLAN.md
+*.pdf
+
+# Full upstream clone (only assets/K1 is vendored)
+booster_assets/
+
+# Training outputs
+logs/
+runs/
+checkpoints/
+*.pt
+*.onnx
+wandb/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+.claude/
